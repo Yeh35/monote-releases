@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>monote 개인정보 처리방침</title>
+  <meta name="description" content="monote 개인정보 처리방침 — 완벽히 개인 소유인 외부 기억. 로컬 우선, 계정 없음, 콘텐츠 미수집.">
+  <meta name="robots" content="index, follow">
+  <style>
+    :root {
+      --bg: #faf9f6;
+      --surface: #ffffff;
+      --text: #1c1b18;
+      --muted: #6b6862;
+      --border: #e7e3dc;
+      --accent: #3a6a5f;
+      --link: #2f6b5e;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #16150f;
+        --surface: #1e1d17;
+        --text: #ece9e1;
+        --muted: #9c988d;
+        --border: #33312a;
+        --accent: #8fc9ba;
+        --link: #8fc9ba;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+        "Pretendard", "Noto Sans KR", "Segoe UI", Roboto, sans-serif;
+      line-height: 1.75;
+      font-size: 17px;
+      letter-spacing: -0.003em;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 72px 24px 96px;
+    }
+    header { margin-bottom: 40px; }
+    h1 {
+      font-size: 1.9rem;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      margin: 0 0 12px;
+      font-weight: 700;
+    }
+    .updated {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin: 0;
+    }
+    .lede {
+      margin: 28px 0 0;
+      color: var(--text);
+      font-size: 1.05rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+      letter-spacing: -0.01em;
+      margin: 48px 0 12px;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+      font-weight: 650;
+    }
+    h2:first-of-type { border-top: none; padding-top: 0; }
+    p { margin: 14px 0; }
+    ul { margin: 14px 0; padding-left: 1.25em; }
+    li { margin: 12px 0; }
+    strong { font-weight: 650; }
+    a { color: var(--link); text-decoration: none; border-bottom: 1px solid color-mix(in srgb, var(--link) 40%, transparent); }
+    a:hover { border-bottom-color: var(--link); }
+    .contact {
+      margin-top: 40px;
+      padding: 20px 22px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+    .contact h2 { border: none; padding: 0; margin: 0 0 8px; }
+    footer {
+      margin-top: 56px;
+      color: var(--muted);
+      font-size: 0.85rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>monote 개인정보 처리방침</h1>
+      <p class="updated">최종 업데이트: 2026-07-13</p>
+      <p class="lede">monote는 “완벽히 개인 소유인 외부 기억”을 지향하는 로컬 우선 앱입니다.</p>
+    </header>
+
+    <h2>우리가 수집하지 않는 것</h2>
+    <ul>
+      <li>당신이 작성한 노트·일기·그림·이미지 등 모든 콘텐츠는 <strong>당신의 기기에만 저장</strong>됩니다. 개발자는 이 데이터를 수집·전송·열람하지 않으며 접근 수단이 없습니다.</li>
+      <li>계정이 없습니다. 이메일·이름·전화번호 등 개인 식별 정보를 요구하지 않습니다.</li>
+      <li>기기 간 동기화는 <strong>당신의 기기끼리 직접(P2P)</strong> 이뤄지며, 콘텐츠는 개발자 서버를 거치지 않습니다.</li>
+    </ul>
+
+    <h2>선택적으로 수집될 수 있는 것 (동의 시에만)</h2>
+    <ul>
+      <li><strong>크래시 리포트</strong>: 설정에서 직접 켠 경우에 한해, 앱이 비정상 종료될 때 익명화된 진단 정보(기기 모델, OS 버전, 크래시 스택)가 Firebase Crashlytics를 통해 전송됩니다. 노트 내용은 포함되지 않습니다. 언제든 끌 수 있습니다.</li>
+    </ul>
+
+    <h2>제3자</h2>
+    <ul>
+      <li>위 크래시 리포트를 켠 경우 Google Firebase Crashlytics가 처리자로 관여합니다. 그 외 광고·추적·분석 SDK는 사용하지 않습니다.</li>
+    </ul>
+
+    <div class="contact">
+      <h2>문의</h2>
+      <p><a href="mailto:sangoh.dev@gmail.com">sangoh.dev@gmail.com</a></p>
+    </div>
+
+    <footer>monote</footer>
+  </main>
+</body>
+</html>
